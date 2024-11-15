@@ -1,0 +1,9 @@
+/* styles/20-style.css */
+
+/* Create a new row after each instance of .row */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  

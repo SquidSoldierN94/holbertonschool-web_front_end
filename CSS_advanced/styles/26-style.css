@@ -1,0 +1,21 @@
+/* styles/26-style.css */
+
+/* Add the card-testimonial selector */
+.card-testimonial {
+    text-align: center;
+  }
+  
+  /* Target the card-avatar inside card-testimonial */
+  .card-testimonial .card-avatar {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+  }
+  
+  /* Target the <cite> HTML tag inside card-quote inside card-testimonial */
+  .card-testimonial .card-quote cite {
+    display: block;
+    padding-top: 1rem;
+    color: var(--color-primary);
+  }
+  

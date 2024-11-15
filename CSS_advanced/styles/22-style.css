@@ -1,0 +1,9 @@
+/* styles/22-style.css */
+
+/* Target elements with data-section-theme="dark" */
+[data-section-theme="dark"] {
+    --text-color: white;
+    --section-title-color: white;
+    background: var(--color-black);
+  }
+  
